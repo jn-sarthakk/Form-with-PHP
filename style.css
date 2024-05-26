@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    /* background-color: rgb(198,152,241); */
+    margin: auto;  /*This is used to center the container*/
+    /*text-align: center;  /*Either we can give text-align here or we can give it in particular h2 and p tag. giving here will align all the text items that will be written in the div*/
+    border-radius: 25px;
+    
+}
+
+.container h1,p{
+    text-align: center;
+    font-family: "Bebas Neue";
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:  300;
+}
+h1{
+    font-size: 35px;;
+}
+p{
+    font-size: 22px;
+}
+
+input, textarea{
+    /*display: block;   this will make button down-side */
+    border: 3px solid dodgerblue;
+    border-radius: 4px;
+    outline: none;
+    border-style: groove;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 6px 18px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.submitMsg{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+/* For using different tyoes of fonts go to google fonts then copy the link and paste it into the head section of the html code, then copy the font-family and paste it first into the '*' this all css function and paste other one where you wnat to apply  */
